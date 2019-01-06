@@ -82,8 +82,8 @@ public class ArrayTableCli {
         for (int i = 0; i < array.length; i++){
             if (array[i] > max){
                 max = array[i];
+                tempMax[0] = i;
             }
-            tempMax[0] = i;
             tempMax[1] = max;
         }
     }
@@ -94,8 +94,8 @@ public class ArrayTableCli {
         for (int i = 0; i < array.length; i++){
             if (array[i] < min){
                 min = array[i];
+                tempMin[0] = i;
             }
-            tempMin[0] = i;
             tempMin[1] = min;
         }
     }
