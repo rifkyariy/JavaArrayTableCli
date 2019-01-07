@@ -18,16 +18,16 @@ public class ArrayTableCli {
         outputTable();
 
         MaxAverage(programAverage);
-        prntln("Nilai rata rata mata pelajaran paling tinggi ialah : Pelajaran ke "+((Math.round(tempMax[0]))+1)+" dengan Nilai : "+tempMax[1]);
+        prntln("Nilai rata rata mata pelajaran paling tinggi ialah Pelajaran ke "+((Math.round(tempMax[0]))+1)+" dengan Nilai : "+tempMax[1]);
 
         MinAverage(programAverage);
-        prntln("Nilai rata rata mata pelajaran paling rendah ialah : Pelajaran ke "+((Math.round(tempMin[0]))+1)+" dengan Nilai : "+tempMin[1]);
+        prntln("Nilai rata rata mata pelajaran paling rendah ialah Pelajaran ke "+((Math.round(tempMin[0]))+1)+" dengan Nilai : "+tempMin[1]);
 
         MaxAverage(studentAverage);
-        prntln("Nilai rata rata siswa paling tinggi ialah : Siswa ke "+((Math.round(tempMax[0]))+1)+" dengan Nilai : "+tempMax[1]);
+        prntln("Nilai rata rata siswa paling tinggi ialah Siswa ke "+((Math.round(tempMax[0]))+1)+" dengan Nilai : "+tempMax[1]);
 
         MinAverage(studentAverage);
-        prntln("Nilai rata rata siswa paling rendah ialah : Siswa ke "+((Math.round(tempMin[0]))+1)+" dengan Nilai : "+tempMin[1]);
+        prntln("Nilai rata rata siswa paling rendah ialah Siswa ke "+((Math.round(tempMin[0]))+1)+" dengan Nilai : "+tempMin[1]);
 
 
     }
